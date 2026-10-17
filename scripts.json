@@ -1,3 +1,16 @@
-{
-  "scripts": []
-}
+{"scripts": [
+  {"name": "Treasure Hunter",
+   "file": "scripts/KladHunter.lua",
+   "version": "1.0",
+   "desc": "Клады, координаты, вкладки. Меню: /kh",
+   "target": "KladHunter.lua",
+   "libs": [
+     {"require": "arizona-events",
+      "files": [
+        {"from": "libs/arizona-events/init.lua",       "to": "arizona-events/init.lua"},
+        {"from": "libs/arizona-events/core.lua",       "to": "arizona-events/core.lua"},
+        {"from": "libs/arizona-events/bitstream.lua",  "to": "arizona-events/bitstream.lua"},
+        {"from": "libs/arizona-events/subprocess.lua", "to": "arizona-events/subprocess.lua"}
+      ]}
+   ]}
+]}
